@@ -122,16 +122,30 @@ h2{
     color: var(--color-secondary);
 }
 
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+}
 
 ul li{
     background: var(--color-primary);
     color: var(--color-secondary);
     padding: 5px;
+}
+
+p{
+    background: var(--color-primary);
+    color: var(--color-secondary);  
+}
+
+/* Image sizing
+    Edu Logos */
+
+.sizing{
+    width: 100px;
+    height: auto;
+    background: var(--color-primary);
 }
 
 @media screen and (min-width: 768px){
