@@ -3,6 +3,7 @@
 body{
     margin: 0;
     padding: 0;
+    background: var(--color-primary);
 }
 
 :root{
@@ -107,16 +108,6 @@ body{
     transform: translate(-50%, -50%);
 }
 
-.site-banner .banner-area .author .author-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: auto;
-    background: url() no-repeat;
-    background-size: 200%;
-    background-position: 40% 0;
-}
-
 h2{
     background-color: var(--color-primary);
     color: var(--color-secondary);
@@ -146,6 +137,10 @@ p{
     width: 100px;
     height: auto;
     background: var(--color-primary);
+}
+
+.card {
+    background-color: darkred;
 }
 
 @media screen and (min-width: 768px){
